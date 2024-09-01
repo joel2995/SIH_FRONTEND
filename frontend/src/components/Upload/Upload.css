@@ -1,0 +1,141 @@
+body {
+    background-color: aqua;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.upload-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.upload-header h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.upload-header p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.upload-dropzone {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 20px;
+    background-color: #FAFAFA;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.upload-dropzone.dragging {
+    background-color: #f0f0f0;
+    border-color: #aaa;
+}
+
+.upload-icon {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.upload-dropzone p {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.browse-link {
+    color: #0066cc;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.browse-link:hover {
+    text-decoration: underline;
+}
+
+.file-metadata {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.file-metadata h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.file-metadata p {
+    font-size: 14px;
+    color: #666;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Dashboard and Sidebar Styles */
+.dashboard-layout {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,59 @@
+.dashboard-container {
+    width: 154vh;
+    height: 100vh;
+    margin: -20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.dashboard-sortby-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dashboard-sortby-container .MuiTypography-h6 {
+    margin-right: 10px;
+    color: #555;
+}
+
+.dashboard-sortby-select {
+    width: 150px;
+}
+
+.dashboard-table-container {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.dashboard-table-header {
+    background-color: #007bff;
+    padding: 10px;
+
+}
+
+.dashboard-table-header-cell {
+    font-weight: bold;
+    color: rgb(23, 156, 52);
+}
+
+.dashboard-button {
+    margin-left: 10px;
+    position: absolute;
+    left: 72%;
+}
+
+.view-button {
+    margin-right: 30px; /* Adjust the value as needed */
+    position: absolute;
+    left: 67%;
+}

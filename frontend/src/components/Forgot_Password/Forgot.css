@@ -1,0 +1,62 @@
+.wrapper {
+    width: 420px;
+    height: 300px;
+    background-color: slateblue;
+    color: #fff;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center ;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width:  95%;
+    height: 50px;
+    margin: 30px 20px;
+    
+}
+
+.input-box input {
+    width: 95%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 37px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+.wrapper button {
+    width: 90%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    margin: 30px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 10, .10);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
